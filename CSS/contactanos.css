@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, Helvetica;
+    margin: 0;
+    background-size: cover;
+    margin: 0%;
+    border-bottom-style: 0;
+    background: url(nube.jpeg);
+    padding: 0%;   
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header{
+    display: flex;
+    
+    background-color: rgb(6, 6, 107);
+    justify-content: space-between;
+    align-items: center;
+    
+    position: relative;
+    z-index: 4;
+}
+
+.logo img{
+    height: 70px;
+    align-items: center;
+    padding: 30px;
+}
+
+nav a{
+    font-weight: 700;
+    padding-right: 40px;
+    color: aliceblue;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+nav a:hover{
+    background-color: black;
+    border-radius: 15px;
+}
+form{
+    padding: 50px 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 600px;
+    margin: 5%;
+    background-color: #2b27276e;
+    position: relative;
+    z-index: 2;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2{
+    color: rgb(243, 243, 248);
+    font-size: 35px;
+}
+label{
+    color: rgb(249, 249, 252);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #d9dfda;
+    border: 2px solid #F0FAF1;
+    color: #000000;
+    outline: none;
+}
+input::placeholder, textarea::placeholder {
+    color: rgb(23, 23, 155);
+}
+.form-text {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.form-text a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn {
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(15, 15, 161);
+    box-shadow: 0 0 20px rgba(19, 7, 121, 0.4);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(71, 71, 213);
+}
+.contenido{
+    padding: 50px 100px;
+    float: right;
+    border-radius: 20px;
+    text-align: center;
+    width: 600px;
+    margin: 5%;
+    background-color: #2b27276e;
+    position: relative;
+    z-index: 3;
+}
+.info .col{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.info .col .icono{
+    color: rgb(71, 71, 213);
+    margin-right: 10px;
+}
+.info .col p ,p ,p{
+    color: rgb(203, 203, 224);
+}
+
+
+.iframe{
+    padding: 20px 100px;
+    float: center;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 5%;
+    display: flex;
+    position: relative;
+    z-index: 6;
+    align-items: center;
+    
+}
+@media(max-width:991px) {
+    
+    body {
+        padding: 30px;
+    }
+    form {
+        padding: 50px 39px;
+        width: 100;
+    }
+    input {
+        padding: 15px ;
+    }
+    .contenido{
+        padding: 50px 39px;
+        width: 100;
+    }
+} 
+
+footer {
+    font-family: sans-serif;
+    text-transform: capitalize;
+   
+}
+
+.Final {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.footer {
+    background-color: #24262B;
+    padding: 80px 0;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-link {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-link h4 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00C3FF;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.footer-link ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.footer-link ul li a:hover {
+    color: white;
+    padding: 6px;
+}
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0,2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5s ease;
+}
